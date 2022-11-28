@@ -5,39 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
   </head>
+  
   <body>
-    <h1>Login</h1>
-    <form>
-      <div>
-        <label>Email</label>
-        <input type="email" />
+  <form>
+      <div class="box">
+        <div class="form">
+          <h2>Sign In</h2>
+          <div class="inputBox">
+          <input type="text" />
+          <span>Username</span> <i></i>
+        </div>
+      <hr />
+      <div class="inputBox">
+        <input type="password" /> <span>Password</span> <i></i>
       </div>
-      <hr>
-      <div>
-        <label>Password</label>
-        <input type="password" />
+      <hr />
+      <div class="links">
+        <br /><br />
+        <a href="#">Forgot password?</a>
+
+        <a href="#">Sign up</a>
+
+        <a href="/index.html">Back</a>
       </div>
-      <hr>
-      <div>
-        <label>Comfirm <span>Password</span></label>
-        <input type="password" />
-      </div>
-      <hr>
-      <div>
-        <label>Age</label>
-        <input type="number" />
-      </div>
-      <hr>
-      <div>
-        <label>Date</label>
-        <input type="date" />
-      </div>
-      <hr>
-      <button>Submit</button>
-      <div>
-        <button><a href="/index.html">Back</a></button>
-      </div>
+      <input type="Submit" value="Login" class="c">
+      <hr />
     </form>
   </body>
 </html>
